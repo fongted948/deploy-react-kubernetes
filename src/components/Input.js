@@ -43,7 +43,7 @@ class Input extends Component {
     const { input } = this.props;
     return (
       <div className="set">
-        <input type="text" className="input" placeholder="Enter movie..." value={input} onChange={this.handleChange} onKeyPress={this.handleKeyPress}/>
+        <input type="text" className="input" placeholder="Enter your favourite movie..." value={input} onChange={this.handleChange} onKeyPress={this.handleKeyPress}/>
         <button className="button" onClick={this.handleResponse}>Search</button>
       </div>
     );
